@@ -1,0 +1,53 @@
+.app {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  background-color: #0a1952;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  color: white;
+}
+
+.alphabet-container {
+  background-color: #fff;
+  color: green;
+  border-radius: 5px;
+  margin: auto 5vw;
+  word-wrap: break-word;
+}
+
+.alphabet {
+  padding: 5vh 5vw;
+  font-size: 4rem;
+}
+
+.footer-form {
+  display: flex;
+  width: 100vw;
+  height: 4vh;
+}
+
+.app-input {
+  width: 80%;
+  text-align: center;
+  background-color: #f9f2e7;
+  border: none;
+}
+
+.app-input:focus {
+  outline: none;
+}
+
+.app-input.placeholder {
+  text-align: center;
+}
+
+.reset-button {
+  background-color: #f0406b;
+  width: 20%;
+  border: none;
+}
